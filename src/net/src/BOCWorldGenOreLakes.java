@@ -144,16 +144,13 @@ public class BOCWorldGenOreLakes extends WorldGenerator
                             {
                                 return false;
                             }
-                            System.out.println(par1World.getTopSolidOrLiquidBlock(par3+var8, par5+var32) + ":" + (par3+var8) + ":" + (par5+var32));
-                        	int test = (par1World.getTopSolidOrLiquidBlock(par3+var8, par5+var32)-5);
-                        	
-                            //This is a sphere!
+                            
+                        	//This is a sphere!
                         	//Play around to create more shapes!
                             if (var12.isSolid() && var12 == Material.rock)
                             {
                             	par1World.setBlock(par3 + var8, par4 + var10, par5 + var32, this.blockIndex, 0, 2);
                             }
-                            
                         	//Seemingly Random spheres
                         	//par1World.setBlock(par3 + var8+var10, par4 + var10, par5 + var32+var10, this.blockIndex, 0, 2);
 //                        	par1World.setBlock(par3 + var32+var10, par4 + var10, par5 + var8+var10, this.blockIndex, 0, 2);

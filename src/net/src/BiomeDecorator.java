@@ -193,7 +193,7 @@ public class BiomeDecorator
     protected void decorate()
     {
         this.generateOres();
-        /*int var1;
+        int var1;
         int var2;
         int var3;
 
@@ -375,7 +375,7 @@ public class BiomeDecorator
                 var7 = this.chunk_Z + this.randomGenerator.nextInt(16) + 8;
                 (new WorldGenLiquids(Block.lavaMoving.blockID)).generate(this.currentWorld, this.randomGenerator, var3, var4, var7);
             }
-        }*/
+        }
     }
 
     /**
@@ -431,7 +431,7 @@ public class BiomeDecorator
     	int var99=this.currentWorld.getBiomeGenForCoords(varx+16, varz+16).biomeID;
     	
     	this.genStandardOre1(20, this.dirtGen, 0, 128);
-        //this.genStandardOre1(10, this.gravelGen, 0, 128);
+        this.genStandardOre1(10, this.gravelGen, 0, 128);
         //this.genStandardOre1(20, this.coalGen, 0, 128);
         //this.genStandardOre1(20, this.ironGen, 0, 64);
         this.genStandardOre1(1, this.goldGen, 0, 32);
