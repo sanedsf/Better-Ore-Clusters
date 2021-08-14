@@ -1,4 +1,4 @@
-# Better-Ore-Clusters
+# Better-Ore-Clusters - NOT UPDATED ANYMORE - ARCHIVED
 This is minecraft 1.5.2 server only base mod that changes how Coal and Iron generation works.
 
 I am not a programmer and I do not claim that I am. I just put together a base mod for fun.
